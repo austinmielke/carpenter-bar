@@ -1,0 +1,35 @@
+@tailwind preflight;
+
+/* Custom styles */
+.nav-logo {
+  transition: opacity 1s ease-in-out;
+}
+
+.nav-link {
+  transition: color 0.5s ease-in-out;
+  @apply .p-4 .text-xl .text-gold .no-underline .uppercase;
+}
+
+.nav-link:hover {
+  @apply .text-white;
+}
+
+@keyframes arrowBounce {
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(0) translateY(-40%);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.arrow {
+  animation: arrowBounce 2s infinite 1s ease-in-out;
+}
+
+@tailwind utilities;
