@@ -2,6 +2,8 @@
 
 @tailwind preflight;
 
+@tailwind components;
+
 /* Custom styles */
 body {
   @apply bg-black;

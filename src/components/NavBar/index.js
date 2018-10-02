@@ -25,8 +25,8 @@ export default class NavBar extends Component {
 
   render() {
     return (
-      <nav className="w-full fixed pin-t bg-black">
-        <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-center sm:justify-between items-center">
+      <nav className="w-full fixed pin-t pin-x bg-black">
+        <div className="container mx-auto flex flex-col sm:flex-row justify-center sm:justify-between items-center">
           <a href="#header">
             <img
               className={`nav-logo w-12 sm:w-16 p-2 ${
