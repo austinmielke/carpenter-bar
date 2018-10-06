@@ -628,6 +628,8 @@ table {
 
 .container {
   width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 @media (min-width: 576px) {
