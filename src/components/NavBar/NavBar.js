@@ -28,7 +28,7 @@ export default class NavBar extends Component {
     return (
       <nav className="w-full fixed pin-t pin-x bg-black z-10">
         <div className="container mx-auto flex flex-col sm:flex-row justify-center sm:justify-between items-center">
-          <AnchorLink href="#header">
+          <AnchorLink offset="175" href="#header">
             <img
               className={`nav-logo w-12 sm:w-16 p-2 ${
                 this.state.navLogoVisibility
@@ -39,17 +39,25 @@ export default class NavBar extends Component {
           </AnchorLink>
           <ul className="h-12 list-reset flex items-center justify-center">
             <li>
-              <AnchorLink className="nav-link md:text-2xl" href="#about">
+              <AnchorLink
+                offset="175"
+                className="nav-link md:text-2xl"
+                href="#about"
+              >
                 About
               </AnchorLink>
             </li>
             <li>
-              <AnchorLink className="nav-link" href="#menu">
+              <AnchorLink offset="175" className="nav-link" href="#menu">
                 Menu
               </AnchorLink>
             </li>
             <li>
-              <AnchorLink className="nav-link md:text-2xl" href="#contact">
+              <AnchorLink
+                offset="175"
+                className="nav-link md:text-2xl"
+                href="#contact"
+              >
                 Contact
               </AnchorLink>
             </li>

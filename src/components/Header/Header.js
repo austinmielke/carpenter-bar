@@ -7,7 +7,7 @@ import arrow from "../../images/arrow.svg";
 const Header = () => (
   <header
     id="header"
-    className="h-screen w-full bg-black flex flex-col items-center justify-center mb-20"
+    className="h-screen w-full bg-black flex flex-col items-center justify-center mb-32"
   >
     <NavBar />
     <img
