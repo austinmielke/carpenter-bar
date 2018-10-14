@@ -17,5 +17,20 @@ module.exports = {
       },
     },
     "gatsby-plugin-offline",
+    {
+      resolve: "gatsby-plugin-purgecss",
+      options: {
+        extractors: [
+          {
+            extractor: class {
+              static extract(content) {
+                return content.match(/[A-Za-z0-9-_:\/]+/g);
+              }
+            },
+            extensions: ["html", "js"],
+          },
+        ],
+      },
+    },
   ],
 };
