@@ -1,6 +1,6 @@
 import React from "react";
 
-import NavBar from "../NavBar";
+import NavBar from "../NavBar/NavBar";
 import logoLarge from "../../images/logo-large.svg";
 import arrow from "../../images/arrow.svg";
 

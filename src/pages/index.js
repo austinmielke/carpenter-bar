@@ -1,9 +1,9 @@
 import React from "react";
 
-import Layout from "../components/Layout";
-import Header from "../components/Header";
-import About from "../components/About";
-import Menu from "../components/Menu";
+import Layout from "../components/Layout/Layout";
+import Header from "../components/Header/Header";
+import About from "../components/About/About";
+import Menu from "../components/Menu/Menu";
 
 const IndexPage = () => (
   <Layout>
