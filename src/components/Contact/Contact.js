@@ -5,7 +5,7 @@ import instagram from "../../images/instagram.svg";
 import email from "../../images/email.svg";
 
 const Contact = () => (
-  <section className="my-20">
+  <section id="contact" className="my-20">
     <div className="container mx-auto text-gold">
       <h2 className="py-8 border-gold border-b-4 text-center text-4xl uppercase tracking-wide">
         Contact

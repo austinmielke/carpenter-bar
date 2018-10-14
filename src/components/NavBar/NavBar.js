@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import logoSmall from "../../images/logo-small.svg";
 
@@ -27,7 +28,7 @@ export default class NavBar extends Component {
     return (
       <nav className="w-full fixed pin-t pin-x bg-black z-10">
         <div className="container mx-auto flex flex-col sm:flex-row justify-center sm:justify-between items-center">
-          <a href="#header">
+          <AnchorLink href="#header">
             <img
               className={`nav-logo w-12 sm:w-16 p-2 ${
                 this.state.navLogoVisibility
@@ -35,22 +36,22 @@ export default class NavBar extends Component {
               src={logoSmall}
               alt="Carpenter Bar"
             />
-          </a>
+          </AnchorLink>
           <ul className="h-12 list-reset flex items-center justify-center">
             <li>
-              <a className="nav-link md:text-2xl" href="#about">
+              <AnchorLink className="nav-link md:text-2xl" href="#about">
                 About
-              </a>
+              </AnchorLink>
             </li>
             <li>
-              <a className="nav-link" href="#menu">
+              <AnchorLink className="nav-link" href="#menu">
                 Menu
-              </a>
+              </AnchorLink>
             </li>
             <li>
-              <a className="nav-link md:text-2xl" href="#contact">
+              <AnchorLink className="nav-link md:text-2xl" href="#contact">
                 Contact
-              </a>
+              </AnchorLink>
             </li>
           </ul>
         </div>

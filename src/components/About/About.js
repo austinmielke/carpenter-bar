@@ -1,7 +1,7 @@
 import React from "react";
 
 const About = () => (
-  <section className="my-20">
+  <section id="about" className="my-20">
     <div className="container mx-auto text-gold">
       <h2 className="py-8 border-gold border-b-4 text-center text-4xl uppercase tracking-wide">
         About

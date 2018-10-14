@@ -19,7 +19,7 @@ module.exports = {
         name: "carpenter-bar",
         short_name: "carpenterbar",
         start_url: "/",
-        background_color: "#000000",
+        background_color: "#111111",
         theme_color: "#B18F43",
         display: "minimal-ui",
         icon: "src/images/favicon.png", // This path is relative to the root of the site.
