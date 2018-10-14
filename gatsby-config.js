@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Default Starter with Tailwind!",
+    title: "Carpenter Bar | Downtown Sioux Falls, SD",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
