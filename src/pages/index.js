@@ -15,7 +15,7 @@ const IndexPage = ({ data }) => (
     <Splash image={data.splashOne.childImageSharp.fluid} />
     <About />
     <Splash image={data.splashTwo.childImageSharp.fluid} />
-    <Menu />
+    <Menu menu={data} />
     <Splash image={data.splashThree.childImageSharp.fluid} />
     <Contact />
     <Splash image={data.splashFour.childImageSharp.fluid} />
@@ -37,6 +37,13 @@ export const fluidImage = graphql`
 
 export const pageQuery = graphql`
   query {
+    markdownRemark {
+      frontmatter {
+        title
+        price
+        description
+      }
+    }
     splashOne: file(relativePath: { eq: "splash1.jpg" }) {
       ...fluidImage
     }
