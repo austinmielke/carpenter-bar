@@ -37,13 +37,6 @@ export const fluidImage = graphql`
 
 export const pageQuery = graphql`
   query {
-    markdownRemark {
-      frontmatter {
-        title
-        price
-        description
-      }
-    }
     splashOne: file(relativePath: { eq: "splash1.jpg" }) {
       ...fluidImage
     }
