@@ -8,16 +8,18 @@ public_folder: "/assets"
 collections:
   - name: "menu"
     label: "Menu"
-    folder: "/static/assets"
-    files:
-      - file: "src/menu/menu.md"
-        name: "signature-cocktails"
-        label: "Signature Cocktails"
+    create: true
+    folder: "src/menu/"
+    fields:
+      - { label: "Menu Title", name: "title" }
+      - label: "Signature Cocktails"
+        name: "signatureCocktails"
+        widget: "list"
         fields:
-          - name: "cocktails"
-            lable: "Cocktails"
-            widget: "list"
-            fields:
-              - { name: "cocktail", lable: "Cocktail Name" }
-              - { name: "price", label: "Cocktail Price", widget: "number" }
-              - { name: "desc", label: "Cockatil Description", widget: "text" }
+          - {
+            label: "Cocktail Name",
+            name: "name",
+            widget: "string",
+          }
+          - { name: "price", label: "Cocktail Price", widget: "number", valueType: "int", hint: "Type price without dollar sign or decimal point" }
+          - { name: "desc", label: "Cockatil Description", widget: "text" }
