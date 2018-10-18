@@ -8,7 +8,7 @@ public_folder: "/assets"
 collections:
   - name: "menu"
     label: "Menu"
-    create: false
+    create: true
     files:
       - file: "src/menu/signature-cocktail.md"
         name: "signatureCocktails"
