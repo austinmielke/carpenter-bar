@@ -40,7 +40,7 @@ export const pageQuery = graphql`
     markdownRemark {
       frontmatter {
         title
-        signatureCocktails {
+        cocktails {
           desc
           name
           price

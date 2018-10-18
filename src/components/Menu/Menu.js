@@ -7,7 +7,7 @@ const Menu = ({ menu }) => (
       <h2 className="pb-8 mb-8 border-gold border-b-4 text-center text-4xl uppercase tracking-wide">
         Signature Cocktails
       </h2>
-      {menu.signatureCocktails.map(cocktail => (
+      {menu.cocktails.map(cocktail => (
         <MenuItem
           key={cocktail.name}
           name={cocktail.name}
