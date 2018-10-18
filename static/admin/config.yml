@@ -7,13 +7,17 @@ public_folder: "/assets"
 
 collections:
   - name: "menu"
-    label: "Signature Cocktails"
-    file: "menu.md"
-    fields:
-      - name: "cocktails"
-        lable: "Cocktails"
-        widget: "list"
+    label: "Menu"
+    folder: "/static/assets"
+    files:
+      - file: "src/menu/menu.md"
+        name: "signature-cocktails"
+        label: "Signature Cocktails"
         fields:
-          - { name: "cocktail", lable: "Cocktail Name" }
-          - { name: "price", label: "Cocktail Price", widget: "number" }
-          - { name: "desc", label: "Cockatil Description", widget: "text" }
+          - name: "cocktails"
+            lable: "Cocktails"
+            widget: "list"
+            fields:
+              - { name: "cocktail", lable: "Cocktail Name" }
+              - { name: "price", label: "Cocktail Price", widget: "number" }
+              - { name: "desc", label: "Cockatil Description", widget: "text" }

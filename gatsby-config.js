@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/menu`,
+        path: `${__dirname}/static/assets`,
         name: "menu",
       },
     },
