@@ -14,7 +14,6 @@ collections:
         lable: "Cocktails"
         widget: "list"
         fields:
-          - {name: "cocktail", lable: "Cocktail Name"}
-          - {name: "price", label: "Cocktail Price", widget: "number"}
-          - {name: "desc", label: "Cockatil Description" widget: "text"}
-      
+          - { name: "cocktail", lable: "Cocktail Name" }
+          - { name: "price", label: "Cocktail Price", widget: "number" }
+          - { name: "desc", label: "Cockatil Description", widget: "text" }
