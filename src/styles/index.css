@@ -35,6 +35,10 @@ a[href^="tel"] {
   }
 }
 
+.nav-link:active {
+  @apply text-white;
+}
+
 @keyframes arrowBounce {
   0% {
     transform: rotate(0);

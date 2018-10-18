@@ -695,6 +695,10 @@ a[href^="tel"] {
   }
 }
 
+.nav-link:active {
+  color: #fff;
+}
+
 @-webkit-keyframes arrowBounce {
   0% {
     -webkit-transform: rotate(0);

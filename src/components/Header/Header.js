@@ -15,7 +15,7 @@ const Header = () => (
       src={logoLarge}
       alt="Carpenter Bar"
     />
-    <img className="arrow w-8 mb-8" src={arrow} alt="scroll down" />
+    <img className="arrow w-8 mb-24 sm:mb-8" src={arrow} alt="scroll down" />
   </header>
 );
 
