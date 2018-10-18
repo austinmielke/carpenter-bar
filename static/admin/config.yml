@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: austinmielke/carpenter-bar
+  name: git/gateway
+  branch: master
 
 media_folder: "static/assets"
 public_folder: "/assets"
@@ -9,7 +9,7 @@ collections:
   - name: "menu"
     label: "Menu"
     create: false
-    folder: "src/menu/"
+    file: "src/menu/signature-cocktail.md"
     field:
       - label: "Signature Cocktails"
         name: "signatureCocktails"
