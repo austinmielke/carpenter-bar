@@ -1,9 +1,6 @@
 ---
-signatureCocktails:
-  - name: First Cocktail
-    price: 9
-    desc: a drink
-  - name: Second Cocktail
+cocktails:
+  - desc: a drink
+    name: Drink
     price: 10
-    desc: another drink
 ---
