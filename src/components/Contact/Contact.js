@@ -14,7 +14,11 @@ const Contact = () => (
         <p className="font-bold text-xl text-center pb-4 mt-4">
           215 S Phillips Ave, Sioux Falls, South Dakota 57104
         </p>
-        <p className="font-bold text-xl text-center pb-4">(605) 271-0983</p>
+        <p className="font-bold text-xl text-center pb-4">
+          <a href="tel:+16052710983" rel="nofollow">
+            (605) 271-0983
+          </a>
+        </p>
       </div>
       <div className="mb-4">
         <h3 className="text-center text-3xl uppercase tracking-wide mb-4">
