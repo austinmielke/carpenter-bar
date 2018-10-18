@@ -29,8 +29,10 @@ a[href^="tel"] {
   }
 }
 
-.nav-link:hover {
-  @apply text-white;
+@media not all and (pointer: coarse) {
+  .nav-link:hover {
+    @apply text-white;
+  }
 }
 
 @keyframes arrowBounce {

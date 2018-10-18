@@ -689,8 +689,10 @@ a[href^="tel"] {
   }
 }
 
-.nav-link:hover {
-  color: #fff;
+@media not all and (pointer: coarse) {
+  .nav-link:hover {
+    color: #fff;
+  }
 }
 
 @-webkit-keyframes arrowBounce {
