@@ -8,10 +8,9 @@ public_folder: "/assets"
 collections:
   - name: "menu"
     label: "Menu"
-    create: true
+    create: false
     folder: "src/menu/"
-    fields:
-      - { label: "Menu Title", name: "title" }
+    field:
       - label: "Signature Cocktails"
         name: "signatureCocktails"
         widget: "list"
