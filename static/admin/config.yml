@@ -11,9 +11,11 @@ collections:
     create: false
     files:
       - file: "src/menu/signature-cocktail.md"
-        field:
-          - label: "Signature Cocktails"
-            name: "signatureCocktails"
+        name: "signatureCocktails"
+        label: "Signature Cocktails"
+        fields:
+          - label: "Cocktails"
+            name: "cocktails"
             widget: "list"
             fields:
               - {
