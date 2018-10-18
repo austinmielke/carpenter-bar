@@ -9,16 +9,17 @@ collections:
   - name: "menu"
     label: "Menu"
     create: false
-    file: "src/menu/signature-cocktail.md"
-    field:
-      - label: "Signature Cocktails"
-        name: "signatureCocktails"
-        widget: "list"
-        fields:
-          - {
-            label: "Cocktail Name",
-            name: "name",
-            widget: "string",
-          }
-          - { name: "price", label: "Cocktail Price", widget: "number", valueType: "int", hint: "Type price without dollar sign or decimal point" }
-          - { name: "desc", label: "Cockatil Description", widget: "text" }
+    files:
+      - file: "src/menu/signature-cocktail.md"
+        field:
+          - label: "Signature Cocktails"
+            name: "signatureCocktails"
+            widget: "list"
+            fields:
+              - {
+                label: "Cocktail Name",
+                name: "name",
+                widget: "string",
+              }
+              - { name: "price", label: "Cocktail Price", widget: "number", valueType: "int", hint: "Type price without dollar sign or decimal point" }
+              - { name: "desc", label: "Cockatil Description", widget: "text" }
