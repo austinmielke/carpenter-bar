@@ -13,7 +13,7 @@ export default class NavBar extends Component {
   }
 
   navLogoVisible = () => {
-    if (document.documentElement.scrollTop > 0) {
+    if (document.body.scrollTop > 0) {
       this.setState({ navLogoVisibility: "opacity-1" });
     } else {
       this.setState({ navLogoVisibility: "opacity-0" });
