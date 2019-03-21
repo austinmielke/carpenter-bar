@@ -2,7 +2,7 @@
 cocktails:
   - desc: The Botanist Gin | Aperol | House Sour | Absinthe | Orange
     name: Fiore
-    price: 9
+    price: 10
   - desc: St. Germain Elderflower | Prosecco | Club Soda | Lemon Twist
     name: Humming Bird
     price: 8
